@@ -1,0 +1,53 @@
+.paddingBorder {
+    margin:12px 0px 0px 0px;
+}
+
+.alignBorder{
+    border:1px 	solid	#A9A9A9;
+    height:80px;
+    border-radius: 15px;
+    margin: 10px;
+    max-width: 100%;
+    min-width:150px;
+    font-weight:bold;
+}
+
+.disable {
+    pointer-events: none;
+}
+
+a.nav-link.disable{
+    color:#A9A9A9;
+    cursor: default;
+    pointer-events: unset;
+}
+
+a.nav-link{
+    color:	#000000;
+}
+
+a.nav-link.disable:hover{
+    color:	#000000;
+    cursor: pointer;
+    pointer-events: unset;
+}
+
+.alignCategoryName{
+    font-size:8px;
+    background-color:#A9A9A9;
+    padding: 0px 10px 3px 10px;
+    white-space: nowrap;
+    text-align: center;
+    margin:10px 0px 0px 40px;
+    border-radius: 45px;
+}
+
+.alignDocumentName {
+    font-size:12px;
+    white-space: nowrap;
+    margin-top:20px;
+}
+
+.active{
+    font-weight: bold;
+}
