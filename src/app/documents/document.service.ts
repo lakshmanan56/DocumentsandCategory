@@ -22,7 +22,7 @@ export class DocumentService {
   }
   
   test() {
-
+    // log test method
   }
 
 }
