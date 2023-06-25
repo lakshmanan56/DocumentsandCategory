@@ -20,5 +20,9 @@ export class DocumentService {
       );
     return this.data$;
   }
+  
+  test() {
+
+  }
 
 }
