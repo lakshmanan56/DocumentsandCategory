@@ -17,6 +17,7 @@ export class CategoryComponent {
     ngOnInit(): void {
         if(this.isEnable == true)
          {
+            const totalCost = 1 * 1.19;
             console.log(this.isEnable)
          }
        
