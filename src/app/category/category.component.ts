@@ -31,7 +31,15 @@ export class CategoryComponent {
         var a = b;
         var c = a;
         var b = c; // Noncompliant: c and b are already the same
+
       }
+
+      letDeclare() {
+        let myName = "Alice";
+      }
+
+
+   
 
    
 }
