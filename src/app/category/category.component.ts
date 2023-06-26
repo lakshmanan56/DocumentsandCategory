@@ -12,9 +12,5 @@ export class CategoryComponent {
     
    }
 
-    ngOnInit(): void {
-       
-    }
-
    
 }
