@@ -39,6 +39,25 @@ export class CategoryComponent {
       }
 
 
+      const GENRE = {
+        ROMANTIC: 'romantic',
+        DRAMA: 'drama',
+        COMEDY: 'comedy',
+        DOCUMENTARY: 'documentary',
+      }
+      
+      configureFilm(GENRE.COMEDY);
+      
+   
+        configureFilm(genre) {
+          switch (genre) {
+            case GENRE.ROMANTIC:
+              // some logic to be executed 
+          }
+        }
+    
+
+
    
 
    
