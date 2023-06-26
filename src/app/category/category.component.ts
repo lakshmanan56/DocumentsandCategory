@@ -22,5 +22,9 @@ export class CategoryComponent {
        
     }
 
+    getReadableStatus(job) {
+        return job.isRunning() ? "Running" : job.hasErrors() ? "Failed" : "Succeeded ";  // Noncompliant
+      }
+
    
 }
