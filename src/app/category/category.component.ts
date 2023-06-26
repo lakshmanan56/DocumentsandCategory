@@ -23,7 +23,14 @@ export class CategoryComponent {
     }
 
     getReadableStatus(job) {
+
         return job.isRunning() ? "Running" : job.hasErrors() ? "Failed" : "Succeeded ";  // Noncompliant
+      }
+
+      assign() {
+        var a = b;
+        var c = a;
+        var b = c; // Noncompliant: c and b are already the same
       }
 
    
