@@ -10,12 +10,14 @@ import { AppData } from './app-data';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DocumentNameComponent } from './documents/document-name.component';
+import { CategoryComponent } from './category/category.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    DocumentNameComponent
+    DocumentNameComponent,
+    CategoryComponent
   ],
   imports: [
     BrowserModule,
